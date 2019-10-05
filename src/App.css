@@ -1,0 +1,155 @@
+body, html {
+  margin: 0;
+  padding: 0
+}
+a{
+  text-decoration: none;
+}
+button, input {
+  outline: none;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: transparent;
+  padding: 12px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-after{
+  background-color: wheat;
+  border-bottom: 3px solid #d8241c
+}
+
+ .logo {
+  width: 150px;
+  height: 100px;
+} 
+
+.btn-login {
+  outline: none;
+  padding: 12px;
+  border-radius: 7px;
+  background-color: #d8241c;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size : 1.1rem
+}
+
+.header {
+  height: 100vh;
+  background-image: url(img/bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat
+}
+.cover {
+  background-color: rgba(0, 0,0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.desc-title {
+  font-size: 5.5rem;
+  letter-spacing: 3px;
+  margin: 2px;
+}
+
+.desc-short {
+  font-size: 1.5rem;
+  margin: 1px;
+}
+
+.desc-button {
+  margin-top: 25px;
+  margin-left: 10px;
+  background-color: #d8241c;
+  padding: 10px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.what {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 45px
+}
+.separator{
+  border-top: 1.3px solid orange;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  width: 100%;
+  max-width: 170px;
+}
+
+.latest {
+  text-align: center
+}
+.card-container{
+  display: flex;
+  width: 90vw;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+.case-card{
+  width: 30%;
+  height: 500px;
+  border: 2px solid orange;
+  margin: 6px;
+}
+.case-card img{
+  width: 100%;
+  height: 250px
+}
+.btn-donate{
+  padding: 18px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: green;
+}
+footer{
+  display: flex;
+  padding: 15px;
+  background-color: #d8241c;
+  color: white;
+  justify-content: space-between
+}
+
+.logo-footer{
+  width: 40%;
+}
+.logo-footer img {
+  height: 100px
+}
+
+footer a {
+  display: block;
+  color: yellow
+}
+ footer .links a {
+   margin-bottom: 4px;
+ }
+.socials a{
+  font-size: 1.7rem
+}
+
+
+/* LOGIN */
