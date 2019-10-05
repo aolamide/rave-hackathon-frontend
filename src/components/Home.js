@@ -89,7 +89,7 @@ class Home extends Component {
                     <div className="cover">
                         <div className="desc">
                             <h1 className="desc-title">Aid4Life</h1>
-                            <p className="desc-short">helping save a generation</p>
+                            <p className="desc-short">keep on breathing...</p>
                             <button className="desc-button">Post your Case</button>
                         </div>
                     </div>

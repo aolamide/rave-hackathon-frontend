@@ -77,6 +77,11 @@ import {Link} from 'react-router-dom';
                             <input onChange= {this.onInputChange('password')}id="password" type="password"/>
                         </div>
                         <div className="form-group">
+                            <label for="password">Rave Merchant ID</label>
+                            <input onChange= {this.onInputChange('merchant')}id="merchant" type="text"/>
+                            <Link to='https://rave.flutterwave.com'>Don't have a Rave Merchant ID?</Link>
+                        </div>
+                        <div className="form-group">
                             <button>Register</button>
                         </div>
                         { this.state.success? <div>Sign Up successful, proceed to Login</div> : null}

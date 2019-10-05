@@ -152,4 +152,73 @@ footer a {
 }
 
 
-/* LOGIN */
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.top img{
+  height: 100px;
+  width: 100px;
+}
+.img-circle {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background-color: grey;
+  margin: auto;
+}
+.side1{
+  padding: 20px;
+  width: 30%;
+  box-sizing: border-box;
+  text-align: center
+}
+.side2{
+  padding: 30px;
+  width: 70%;
+  box-sizing: border-box
+}
+.main-body {
+  display: flex;
+}
+
+.problem-form label{
+  display: block;
+  text-transform : uppercase;
+  font-weight: bold;
+}
+
+.problem-form input {
+  border-bottom: 2px solid #d8241c;
+  padding: 12px;
+}
+
+.problem-form input, .problem-form textarea {
+  border-bottom: 1px solid #d8241c;
+  padding: 12px;
+  width: 80%;
+}
+
+.problem-form > div {
+  margin: 10px;
+}
+
+.problem-form button {
+  background-color: #d8241c;
+  padding: 10px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.log-out{
+  background-color: #f51307;
+  padding: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  top: 10px;
+  right: 10px
+}
